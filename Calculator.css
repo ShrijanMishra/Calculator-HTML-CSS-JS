@@ -1,0 +1,224 @@
+
+
+.body{
+    
+    
+    background:rgb(248, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.panel{
+    
+    margin-top: 10%;
+    border: none;
+    width: 300px;
+    height: 63vh;
+    background-color: black;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.display{
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 263px;
+    height: 100px;
+    border: none;
+    border-radius: 10%;
+    padding: 1rem;
+   background: rgb(248, 248, 248);
+   font-size: 2rem;
+   text-align: right;
+    pointer-events: none;
+    color: rgb(1, 1, 1);
+    font-size: 40px;
+    font-weight: bolder;
+    
+
+}
+
+.buttons{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:30px ;
+
+    
+}
+
+button{
+    
+border: transparent;
+    width: 66px;
+    height: 45px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    border-top-right-radius: 12%;
+    border-bottom-left-radius: 12%;
+    border-bottom-right-radius: 12%;
+    border-top-left-radius: 12%;
+    margin: 1%;
+   color: rgb(21, 20, 20);
+    
+    
+}
+
+.operatorBtn{
+    
+    background: orangered ;
+
+}
+
+.ClrBtn{
+    background: orangered ;
+
+}
+
+.EqlBtn{
+    background: orangered;
+    width: 200px;
+    margin-left: 10%;
+    margin-top: 8%;
+   border-radius: 5%;
+   font-size: 40px;
+   font-weight: bold;
+   
+}
+.operatorBtn:hover{
+    font-size: 50px;
+    transform: translateY(5px);
+    color: white;
+}
+
+.ClrBtn:hover{
+    font-size: 50px;
+    transform: translateY(5px);
+    color: white;
+}
+.EqlBtn:hover{
+    font-size: 50px;
+    transform: translateY(-5px);
+    color: white;
+}
+.NumBtn:hover{
+    font-size: 50px;
+    transform: translateY(5px);
+    color: orangered;
+    
+}
+
+.Plus{
+font-size: 80px;
+font-weight: 900;
+position: absolute;
+rotate: -45deg  ;
+    bottom: 1%;
+    right: 5%;
+    animation: rocket 4s alternate-reverse infinite;
+    color: chartreuse   ;
+}
+@keyframes rocket{
+    10%{
+        bottom: 0;
+        opacity: 1;
+    }
+    100%{
+        bottom: 90%;
+        opacity: 1;
+    }
+}
+
+.Minus{
+    font-size: 80px;
+    font-weight: 900;
+    position: absolute;
+        bottom: 1%;
+        right: 5%;
+        rotate: 45deg;
+       color: red;
+        
+        animation: rocket1 4s  alternate-reverse  infinite     ;
+    }
+    @keyframes rocket1{
+        10%{
+            right: 5%;
+            opacity: 0;
+        }
+        100%{
+            right: 80%;
+            opacity: 1;
+        }
+    }
+
+    
+        
+        .Division{
+            font-size: 70px;
+            font-weight: 900;
+            position: absolute;
+                bottom: 3%;
+                right: 4%;
+                rotate: 45deg;
+                color: aqua;
+                
+                
+                animation: rocket4 4s alternate infinite ;
+            }
+            @keyframes rocket4{
+                10%{
+                    right: 5%;
+                    opacity: 0;
+                }
+                100%{
+                    right: 80%;
+                    opacity: 1;
+                }
+            }
+            .Multi{
+                font-size: 80px;
+                position: absolute;
+                bottom: 1%;
+                left: 3%;
+                animation: rocket5 4s alternate-reverse infinite;
+                color: blue;
+            }
+
+            @keyframes rocket5{
+                10%{
+                    bottom: 0;
+                    opacity: 1;
+                }
+                100%{
+                    bottom: 90% ;
+                    opacity: 1;
+                }
+            }
+
+
+           .dateTime{
+                position: absolute;
+                left: 30%;
+                top: 14%;
+                width: 170px;
+                height: 30px;
+                font-size: 20px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                                 
+            }
+
+            #datetime{
+                position: absolute;
+                top:13%;
+                left: 45%;
+                font-size: 20px;
+                font-weight: bold;
+                color: rgb(142, 103, 67);
+
+                
+            }

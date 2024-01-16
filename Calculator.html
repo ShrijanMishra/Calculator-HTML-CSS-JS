@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+
+    <div class="body" >
+       <div class="panel">
+       <input class="display" type="text"  />
+       
+
+       <div class="buttons">
+        <button type="button" class="operatorBtn" data-num="+" >+</button>
+        <button type="button" class="operatorBtn" data-num="-" >-</button>
+        <button type="button" class="operatorBtn" data-num="*" >x</button>
+        <button type="button" class="operatorBtn" data-num="/" >/</button>
+        <button type="button" class="operatorBtn" data-num="." >.</button>
+        <button type="button" class="ClrBtn">C</button>
+
+
+
+        <button type="button" class="NumBtn" data-num="7" >7</button>
+        <button type="button" class="NumBtn" data-num="8" >8</button>
+        <button type="button" class="NumBtn" data-num="9" >9</button>
+        <button type="button" class="NumBtn" data-num="6" >6</button>
+        <button type="button" class="NumBtn" data-num="5" >5</button>
+        <button type="button" class="NumBtn" data-num="4" >4</button>
+        <button type="button" class="NumBtn" data-num="3" >3</button>
+        <button type="button" class="NumBtn" data-num="2" >2</button>
+        <button type="button" class="NumBtn" data-num="1" >1</button>
+        <button type="button" class="EqlBtn" >=</button>
+          </div>
+
+       </div>
+      <input class="dateTime" type="button" value="Current Date-Time" onclick="connect();"/>
+      <br/>
+      <span id="datetime"></span>
+      </div>
+       
+    
+<h1 class="Plus">+    </br>  -</h1>
+<h1 class="Minus">-    </br>  +</h1>
+<h1 class="Multi">x    </br>  /</h1>
+<h1 class="Division">/    </br>  x</h1>
+
+
+
+<script src="Calculator.js"></script>
+</body>
+</html>
